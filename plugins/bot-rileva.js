@@ -28,30 +28,30 @@ export async function before(m, { conn, groupMetadata }) {
 
   const type = m.messageStubType;
   let ppBuffer;
-  const vareb0t = 'https://i.ibb.co/hJW7WwxV/varebot.jpg';
+  const zynob0t = 'https://ibb.co/XfHbTrjc/zynobot.jpg';
 
   try {
     const ppUrl = await conn.profilePictureUrl(m.chat, 'image');
     ppBuffer = (await conn.getFile(ppUrl)).data;
   } catch {
     try {
-      ppBuffer = (await conn.getFile(vareb0t)).data;
+      ppBuffer = (await conn.getFile(zynob0t)).data;
     } catch {
       ppBuffer = Buffer.alloc(0);
     }
   }
-  const nomegp = groupMetadata.subject || 'vare ✧ bot';
+  const nomegp = groupMetadata.subject || 'zyno ✧ bot';
   const am = {
-    21: 'NOME GRUPPO MODIFICATO',
-    22: 'IMMAGINE GRUPPO MODIFICATA',
-    23: 'LINK GRUPPO REIMPOSTATO',
-    25: 'PERMESSI GRUPPO MODIFICATI',
+    21: 'NOME GRUPPO MODIFICATO PER FORTUNA PORCO DIO',
+    22: 'IMMAGINE GRUPPO MODIFICATA, SPERO CHE SIA MIGLIORE',
+    23: 'LINK GRUPPO REIMPOSTATO AAAAAAAAAAAA',
+    25: 'PERMESSI GRUPPO MODIFICATI GODO',
     26: 'STATO GRUPPO MODIFICATO',
-    29: 'NUOVO ADMIN PROMOSSO',
-    30: 'ADMIN RETROCESSO'
+    29: 'NUOVO ADMIN PROMOSSO, BRAVO COGLIONE ORA IL GRUPPO MORIRÀ',
+    30: 'ADMIN RETROCESSO, GODO FACEVI SCHIFO'
   };
 
-  const varebot = {
+  const zynobot = {
     21: `ㅤㅤ⋆｡˚『 ╭ \`NOME GRUPPO\` ╯ 』˚｡⋆\n╭  \n│ 『 👤 』 \`Da:\` *${utente}*\n│ 『 🏷️ 』 \`Nuovo nome:\` *${nomegp || 'sconosciuto'}*\n*╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*`,
     22: `ㅤㅤ⋆｡˚『 ╭ \`IMMAGINE GRUPPO\` ╯ 』˚｡⋆\n╭  \n│ 『 👤 』 \`Da:\` *${utente}*\n*╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*`,
     23: `ㅤㅤ⋆｡˚『 ╭ \`LINK REIMPOSTATO\` ╯ 』˚｡⋆\n╭  \n│ 『 👤 』 \`Da:\` *${utente}*\n│ 『 📎 』 \`Stato:\` *Il link del gruppo aggiornato*\n*╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*`,
@@ -83,7 +83,7 @@ export async function before(m, { conn, groupMetadata }) {
     contextInfo.mentionedJid = mentions;
 
     await conn.sendMessage(m.chat, {
-      text: varebot[type],
+      text: zynobot[type],
       contextInfo
     });
   }
