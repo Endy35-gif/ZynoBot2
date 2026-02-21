@@ -21,8 +21,8 @@ handler.all = async function (m) {
   global.foto = [
     'https://ibb.co/jk12T0pn/timetolockin.jpg',
     'https://ibb.co/XfHbTrjc/zynobot.jpg',
-    'https://i.ibb.co/Mkt4nKRm/download-1.jpg',
-    'https://i.ibb.co/0stc3P2/IMG-20220518-WA1960.jpg',
+    'https://ibb.co/rGmdY5Bm/download-1.jpg',
+    'https://ibb.co/35FYkdnz/IMG-20220518-WA1960.jpg',
     'https://i.ibb.co/Nn3jtT9S/Immagine-Whats-App-2025-05-19-ore-02-36-11-8183b81a.jpg',
     'https://i.ibb.co/0jC5VpP3/39709bec-6869-41a7-a38b-03088a16247d.jpg',
     'https://i.ibb.co/v65XDjR7/idgf.jpg',
