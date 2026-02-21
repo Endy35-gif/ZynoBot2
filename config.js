@@ -13,25 +13,25 @@ const moduleCache = new NodeCache({ stdTTL: 300 });
 
 /*⭑⭒━━━✦❘༻☾⋆⁺₊✧ 𝓿𝓪𝓻𝓮𝓫𝓸𝓽 ✧₊⁺⋆☽༺❘✦━━━⭒⭑*/
 
-global.sam = ['393476686131',]
+global.endy = ['212679283897',]
 global.owner = [
-  ['393476686131', 'sam', true],
-  ['393511082922', 'gio', true],
-  ['393392645292', 'mavko', true],
-  ['67078163216', 'Felix', true],
-  ['393514357738', 'vare', true],
+  ['212679283897', 'Endy', true],
+  ['212722652082', 'medalis', true],
+  ['393926427789', 'mors', true],
+  ['5511967898841', 'ksav', true],
+  ['212775270361', 'ZynoBot', true],
 ]
-global.mods = ['393476686131', '393511082922', '67078163216']
-global.prems = ['393476686131', '393511082922', '67078163216']
+global.mods = ['212679283897', '212722652082', '393926427789', '5511967898841', '212775270361']
+global.prems = ['212679283897', '212722652082', '393926427789', '5511967898841', '212775270361']
 
-/*⭑⭒━━━✦❘༻🩸 INFO BOT 🕊️༺❘✦━━━⭒⭑*/
+[ SYSTEM :: INFO BOT ]
 
-global.nomepack = 'vare ✧ bot'
-global.nomebot = '✧˚🩸 varebot 🕊️˚✧'
-global.wm = 'vare ✧ bot'
-global.autore = '𝐬𝐚𝐦'
-global.dev = '⋆｡˚- 𝐬𝐚𝐦'
-global.testobot = `༻⋆⁺₊𝓿𝓪𝓻𝓮𝓫𝓸𝓽₊⁺⋆༺`
+global.nomepack = '𝒁𝒚𝒏𝒐 ༒︎ 𝑩𝒐𝒕'
+global.nomebot = '𖣘 𝒁𝒚𝒏𝒐 𖣘'
+global.wm = '𝒁𝒚𝒏𝒐 ༒︎ 𝑩ot'
+global.autore = '𝐄𝐧𝐝𝐲'
+global.dev = 'ت︎-𝐄𝐧𝐝𝐲'
+global.testobot = `༻⋆⁺₊𝔃𝔂𝓷𝓸𝓫𝓸𝓽₊⁺⋆༺`
 global.versione = pkg.version
 global.errore = '⚠️ *Errore inatteso!* Usa il comando `.segnala _errore_` per avvisare lo sviluppatore.'
 
