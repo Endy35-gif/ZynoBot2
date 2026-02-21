@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
             ]
         }
         const amazonCard = {
-            image: { url: 'https://i.ibb.co/gLL5mXts/death-note.jpg' },
+            image: { url: 'https://ibb.co/Rpj5ZKYQ/death-note.jpg' },
             title: `『 🎁 』 *\`AMAZON GIFT CARD\`*`,
             body: `『 📧 』 \`Contatta su Instagram\`\n\nPuoi anche inviare un buono regalo Amazon contattandomi direttamente su Instagram. Sarò felice di riceverlo!\n\n🌟 Grazie per il tuo supporto`,
             footer: 'Opzione 2 di 2 - Amazon',
@@ -32,14 +32,14 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: '📱 Contatta su Instagram',
-                        url: 'https://instagram.com/samakavare'
+                        url: 'https://www.instagram.com/endy.2011_?igsh=aGZycG90b3BhNzBi'
                     })
                 },
                 {
                     name: 'cta_copy',
                     buttonParamsJson: JSON.stringify({
                         display_text: '📋 Copia Username IG',
-                        copy_code: '@samakavare'
+                        copy_code: '@endyakazyno'
                     })
                 }
             ]
@@ -65,7 +65,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 \`Se vuoi supportare il progetto e aiutare a mantenere il bot attivo, puoi fare una donazione. Ogni contributo è molto apprezzato!\` 💛
 
 ▢ *PayPal*
-- Link: *https://www.paypal.me/samakavare*
+- Link: *https://www.paypal.me/endyakazyno*
 
 ▢ *Amazon Buono Regalo*
 - Invia il codice a instagram.com/samakavare 
