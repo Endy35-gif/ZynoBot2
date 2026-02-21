@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
     try {
         const paypalCard = {
-            image: { url: 'https://i.ibb.co/kVdFLyGL/sam.jpg' },
+            image: { url: 'https://ibb.co/tMVFcXH1/Endy-Zyno.jpg' },
             title: `『 💰 』 *\`PAYPAL\`*`,
             body: `『 🤝 』 \`Supporta il progetto\`\n\nSe vuoi aiutare a mantenere il bot attivo, puoi fare una donazione tramite PayPal. Ogni contributo è molto apprezzato!\n\n💛 Anche piccole donazioni fanno la differenza`,
             footer: '',
@@ -10,14 +10,14 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: '💰 Dona con PayPal',
-                        url: 'https://www.paypal.me/samakavare'
+                        url: 'https://www.paypal.me/endyakacandy'
                     })
                 },
                 {
                     name: 'cta_copy',
                     buttonParamsJson: JSON.stringify({
                         display_text: '📋 Copia Link PayPal',
-                        copy_code: 'https://www.paypal.me/samakavare'
+                        copy_code: 'https://www.paypal.me/endyakazyno'
                     })
                 }
             ]
