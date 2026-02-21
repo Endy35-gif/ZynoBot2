@@ -19,8 +19,8 @@ handler.all = async function (m) {
 /*⭑⭒━━━✦❘༻☾⋆⁺₊✧ Immagini e GIF ✧₊⁺⋆☽༺❘✦━━━⭒⭑*/
 
   global.foto = [
-    'https://i.ibb.co/VYxgQ311/timetolockin.jpg',
-    'https://i.ibb.co/hJW7WwxV/varebot.jpg',
+    'https://ibb.co/jk12T0pn/timetolockin.jpg',
+    'https://ibb.co/XfHbTrjc/zynobot.jpg',
     'https://i.ibb.co/Mkt4nKRm/download-1.jpg',
     'https://i.ibb.co/0stc3P2/IMG-20220518-WA1960.jpg',
     'https://i.ibb.co/Nn3jtT9S/Immagine-Whats-App-2025-05-19-ore-02-36-11-8183b81a.jpg',
