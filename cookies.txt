@@ -3,4 +3,4 @@
 # Se si è da server, vps ecc sono necessari i cookies per far si che il comando funzioni
 # Breve tutorial: nel proprio browser cercare Get cookies.txt LOCALLY e scaricare l'estensione, dopodiche
 # Entra su youtube e clicca sull'estensione, selezionare formato Netscape e dopodichè Copy - infine incolla qui al posto di tutto sto testo
-# By sam aka vare, per info o domande wa.me/393514357738
+# By endy aka candy, per info o domande wa.me/212679283897
