@@ -1,7 +1,7 @@
 // same here penso
 import fetch from 'node-fetch'
 import { FormData } from 'formdata-node'
-import { downloadContentFromMessage } from '@realvare/based'
+import { downloadContentFromMessage } from '@endy/based'
 const sonoilgattoperquestitopi = /(?:https?:\/\/)?(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&=]*)/gi;
 const doms = {
     tiktok: ['tiktok.com', 'vm.tiktok.com', 'tiktok.it', 'tiktok.fr', 'tiktok.de', 'tiktok.es', 'tiktok.co.uk'],
@@ -241,7 +241,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
 
                     if (user[m.sender].antiLink2Warns < 3) {
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`vare ✧ bot\``,
+                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`zyno ✧ bot\``,
                             mentions: [m.sender]
                         })
                     } else {
@@ -249,7 +249,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
                         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove').catch(console.error)
                         const username = m.sender.split('@')[0]
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 🛑 』 \`Link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`vare ✧ bot\``,
+                            text: `> 『 🛑 』 \`Link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`zyno ✧ bot\``,
                             mentions: [m.sender]
                         })
                     }
@@ -279,7 +279,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
 
                     if (user[m.sender].antiLink2Warns < 3) {
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per QR con link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`vare ✧ bot\``,
+                            text: `> 『 ⚠️ 』 Avviso ${user[m.sender].antiLink2Warns}/3 per QR con link ${detectedPlatform}. Al terzo avviso verrai rimosso.\n\n> \`zyno ✧ bot\``,
                             mentions: [m.sender]
                         })
                     } else {
@@ -287,7 +287,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }
                         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove').catch(console.error)
                         const username = m.sender.split('@')[0]
                         await conn.sendMessage(m.chat, {
-                            text: `> 『 🚫 』 \`QR con link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`vare ✧ bot\``,
+                            text: `> 『 🚫 』 \`QR con link ${detectedPlatform} rilevato.\` *Ciao ciao* @${username}\n\n> \`zyno ✧ bot\``,
                             mentions: [m.sender]
                         })
                     }
