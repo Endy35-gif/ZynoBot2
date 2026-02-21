@@ -37,10 +37,10 @@ global.errore = '⚠️ *Errore inatteso!* Usa il comando `.segnala _errore_` pe
 
 /*⭑⭒━━━✦❘༻🌐 LINK 🌐༺❘✦━━━⭒⭑*/
 
-global.repobot = 'https://github.com/realvare/varebot'
-global.gruppo = 'https://chat.whatsapp.com/bysamakavare'
-global.canale = 'https://whatsapp.com/channel/0029VbB41Sa1Hsq1JhsC1Z1z'
-global.insta = 'https://www.instagram.com/samakavare'
+global.repobot = 'https://github.com/Endy35-gif/ZynoBot2'
+global.gruppo = 'https://chat.whatsapp.com/LAjAXzrmZ2vF8jJTNy7lzq?mode=gi_t'
+global.canale = 'https://whatsapp.com/channel/0029Vb7DfzZ7Noa0LayyC90q'
+global.insta = 'https://www.instagram.com/zynobot.md?igsh=bHdvcG10bGFoeHo2'
 
 /*⭑⭒━━━✦❘༻ MODULI ༺❘✦━━━⭒⭑*/
 
@@ -53,22 +53,22 @@ global.moment = moment
 /*⭑⭒━━━✦❘🗝️ API KEYS 🌍༺❘✦━━━⭒⭑*/
 
 global.APIKeys = { // le keys con scritto "varebot" vanno cambiate con keys valide
-    spotifyclientid: 'varebot',
-    spotifysecret: 'varebot',
-    browserless: 'varebot',
-    screenshotone: 'varebot',
-    screenshotone_default: 'varebot',
-    tmdb: 'varebot',
-    gemini:'varebot',
-    ocrspace: 'varebot',
-    assemblyai: 'varebot',
-    google: 'varebot',
-    googlex: 'varebot',
-    googleCX: 'varebot',
-    genius: 'varebot',
-    unsplash: 'varebot',
+    spotifyclientid: 'zynobot',
+    spotifysecret: 'zynobot',
+    browserless: 'zynobot',
+    screenshotone: 'zynobot',
+    screenshotone_default: 'zynobot',
+    tmdb: 'zynobot',
+    gemini:'zynobot',
+    ocrspace: 'zynobot',
+    assemblyai: 'zynobot',
+    google: 'zynobot',
+    googlex: 'zynobot',
+    googleCX: 'zynobot',
+    genius: 'zynobot',
+    unsplash: 'zynobot',
     removebg: 'FEx4CYmYN1QRQWD1mbZp87jV',
-    openrouter: 'varebot',
+    openrouter: 'zynobot',
     lastfm: '36f859a1fc4121e7f0e931806507d5f9',
 }
 
