@@ -1,1 +1,1 @@
-// Per ora esclusiva dei numeri main di Varebot, in un futuro aggiornamento verranno aggiunti
+// Per ora esclusiva dei numeri main di Zynobot, in un futuro aggiornamento verranno aggiunti
