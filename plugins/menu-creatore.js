@@ -8,15 +8,15 @@ import os from 'os'
 const defaultMenu = {
   before: ``.trimStart(),
   header: 'ㅤㅤ⋆｡˚『 ╭ \`MENU CREATORE\` ╯ 』˚｡⋆\n╭',
-  body: '│ ➤『🕊️』 %cmd\n',
+  body: '│ ➤『☦︎』 %cmd\n',
   footer: '*╰⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*\n',
-  after: `> 🩸 𓆩⟡𓆪 𝙫𝙖𝙧𝙚𝙗𝙤𝙩 𓆩⟡𓆪`,                   
+  after: `> 𖣘𝐙𝐲𝐧𝐨𝐁𝐨𝐫𖣘`,                   
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
 'creatore': 'MenuOwner',
 }
-let img = 'https://i.ibb.co/N25rgPrX/Gaara.jpg'
+let img = 'https://ibb.co/Tx5NL1bS/Gaara.jpg'. 
 
   try {
       let dash = global.dashmenu
