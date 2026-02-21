@@ -15,7 +15,7 @@ import { makeWASocket, protoType, serialize } from './lib/simple.js';
 import { Low, JSONFile } from 'lowdb';
 import NodeCache from 'node-cache';
 import { ripristinaTimer } from './plugins/gp-configgruppo.js';
-
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
 const DisconnectReason = {
     connectionClosed: 428,
     connectionLost: 408,
